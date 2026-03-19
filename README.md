@@ -25,4 +25,4 @@ El sistema está diseñado para apoyar a educadores, terapeutas y familias en el
 
 Autora
 
-Desarrollado por **Jessica Solar** como proyecto del curso de JavaScript — Módulo 6.
+Desarrollado por **Jessica Solar** como proyecto del curso de Desarrollo de Aplicaciones FULL STACK JavaScript — Módulo 6.
