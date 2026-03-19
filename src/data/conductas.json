@@ -1,0 +1,74 @@
+[
+  {
+    "id": "a1b2c3d4-0001",
+    "nombre": "Golpear la mesa con fuerza",
+    "fecha": "2025-03-01",
+    "intensidad": 5,
+    "gatillante": "Cambio inesperado de rutina",
+    "frecuencia": 4,
+    "isActive": true
+  },
+  {
+    "id": "a1b2c3d4-0002",
+    "nombre": "Taparse los oídos",
+    "fecha": "2025-03-02",
+    "intensidad": 2,
+    "gatillante": "Ruido fuerte en el aula",
+    "frecuencia": 5,
+    "isActive": false
+  },
+  {
+    "id": "a1b2c3d4-0003",
+    "nombre": "Llanto sin causa aparente",
+    "fecha": "2025-03-03",
+    "intensidad": 3,
+    "gatillante": "Transición entre actividades",
+    "frecuencia": 2,
+    "isActive": true
+  },
+  {
+    "id": "a1b2c3d4-0004",
+    "nombre": "Aleteo de manos",
+    "fecha": "2025-03-04",
+    "intensidad": 1,
+    "gatillante": "Emoción positiva intensa",
+    "frecuencia": 8,
+    "isActive": true
+  },
+  {
+    "id": "a1b2c3d4-0005",
+    "nombre": "Negarse a comer",
+    "fecha": "2025-03-05",
+    "intensidad": 3,
+    "gatillante": "Textura desconocida en los alimentos",
+    "frecuencia": 4,
+    "isActive": true
+  },
+  {
+    "id": "a1b2c3d4-0006",
+    "nombre": "Repetir frases en bucle",
+    "fecha": "2025-03-06",
+    "intensidad": 2,
+    "gatillante": "Ansiedad por espera",
+    "frecuencia": 6,
+    "isActive": true
+  },
+  {
+    "id": "a1b2c3d4-0007",
+    "nombre": "Autolesión leve en muñeca",
+    "fecha": "2025-03-07",
+    "intensidad": 5,
+    "gatillante": "Frustración por no poder comunicarse",
+    "frecuencia": 1,
+    "isActive": true
+  },
+  {
+    "id": "e89ac6a5-4328-41eb-9f0d-e1bbb2960869",
+    "nombre": "Balancearse en la silla",
+    "fecha": "2025-03-10",
+    "intensidad": 2,
+    "gatillante": "Espera prolongada sin actividad",
+    "frecuencia": 4,
+    "isActive": true
+  }
+]
