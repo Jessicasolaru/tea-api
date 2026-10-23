@@ -6,7 +6,7 @@
     "intensidad": 5,
     "gatillante": "Cambio inesperado de rutina",
     "frecuencia": 4,
-    "isActive": true
+    "isActive": false
   },
   {
     "id": "a1b2c3d4-0002",
@@ -24,7 +24,7 @@
     "intensidad": 3,
     "gatillante": "Transición entre actividades",
     "frecuencia": 2,
-    "isActive": true
+    "isActive": false
   },
   {
     "id": "a1b2c3d4-0004",
@@ -42,7 +42,7 @@
     "intensidad": 3,
     "gatillante": "Textura desconocida en los alimentos",
     "frecuencia": 4,
-    "isActive": true
+    "isActive": false
   },
   {
     "id": "a1b2c3d4-0006",
@@ -64,6 +64,33 @@
   },
   {
     "id": "e89ac6a5-4328-41eb-9f0d-e1bbb2960869",
+    "nombre": "Balancearse en la silla",
+    "fecha": "2025-03-10",
+    "intensidad": 2,
+    "gatillante": "Espera prolongada sin actividad",
+    "frecuencia": 4,
+    "isActive": true
+  },
+  {
+    "id": "2ceb1099-5b80-4f3e-9d95-0f21414274e2",
+    "nombre": "Balancearse en la silla",
+    "fecha": "2025-03-10",
+    "intensidad": 2,
+    "gatillante": "Espera prolongada sin actividad",
+    "frecuencia": 4,
+    "isActive": true
+  },
+  {
+    "id": "5f26981e-18f5-4ad8-95b0-8ca36a54ab38",
+    "nombre": "Balancearse en la silla",
+    "fecha": "2025-03-10",
+    "intensidad": 2,
+    "gatillante": "Espera prolongada sin actividad",
+    "frecuencia": 4,
+    "isActive": true
+  },
+  {
+    "id": "f2c2b42d-291f-4694-a24f-b7dec83dff20",
     "nombre": "Balancearse en la silla",
     "fecha": "2025-03-10",
     "intensidad": 2,

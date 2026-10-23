@@ -8,8 +8,13 @@
     "dev": "nodemon src/main.js",
     "start": "node src/main.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "tea"
+  ],
+  "author": "Jessica Solar",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
