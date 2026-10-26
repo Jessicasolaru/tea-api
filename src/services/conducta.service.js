@@ -31,23 +31,23 @@ export class ConductaService {
 
       // Creamos una nueva instancia validada del modelo
       this.logger.debug("Creando nueva instancia de Conducta");
-      const nuevaConducTA = Conducta.create(data);
+      const nuevaConducta = Conducta.create(data);
 
       // Si el archivo no existía o estaba vacío, creamos la estructura inicial
       if (!conductas) {
         this.logger.warn("No había registros previos, creando archivo nuevo");
-        await FilesUtils.writeFile(this.#pathFile, [nuevaConducTA.toJSON()]);
-        return nuevaConducTA.toJSON();
+        await FilesUtils.writeFile(this.#pathFile, [nuevaConducta.toJSON()]);
+        return nuevaConducta.toJSON();
       }
 
       // Agregamos la nueva conducta al arreglo existente
-      conductas.push(nuevaConducTA.toJSON());
+      conductas.push(nuevaConducta.toJSON());
 
       // Guardamos el arreglo actualizado en el archivo
       await FilesUtils.writeFile(this.#pathFile, conductas);
       this.logger.info("Conducta creada con éxito");
 
-      return nuevaConducTA.toJSON();
+      return nuevaConducta.toJSON();
     } catch (error) {
       this.logger.error(`Error al crear conducta: ${error.message}`);
       // Re-lanzamos el error para que lo maneje el middleware
